@@ -4,11 +4,7 @@
     padding: 0;
   }
   
-  .container {
-    max-width: 1320px;
-    margin: 0 auto;
-    text-align: center;
-  }
+
   header {
     background-color: rgb(148, 122, 242);
     padding: 1rem 0rem;
@@ -25,6 +21,7 @@
   }
 button {
     text-align: center;
+   
   }
   .btn {
     margin: 2rem 3rem 2rem 0rem;
@@ -32,6 +29,7 @@ button {
     background: black;
     color: white;
     border-radius: 0.5rem;
+    font-size: 1rem;
   }
   .btn:hover{
     background: white;
@@ -59,9 +57,7 @@ button {
     border-radius: 0.5rem;
     color: white;
   }
-  img{
-    border-radius: 50%;
-  }
+ 
   
   p{
     margin: 1rem 0rem;
@@ -69,4 +65,8 @@ button {
   .active{
     background: white;
     color: black;
+  }
+  .tags-display{
+    display: flex;
+    justify-content: center;
   }

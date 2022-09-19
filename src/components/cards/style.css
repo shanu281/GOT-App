@@ -1,0 +1,45 @@
+h2 {
+    text-align: center;
+    
+  }
+  h1{
+    background-color: #4075D5;
+    color: #fff;
+    padding: 2rem;
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  li{
+    width: 30%;
+    list-style: none;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 1px 4px black;
+    text-align: center;
+    background-color: #72c5e0;
+  }
+ 
+  a{
+    text-decoration: none;
+  }
+  img{
+    margin: 0 2rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+  }
+  .btn-style{
+    padding: .5rem 8rem;
+    border-radius: .5rem;
+    color: #4075D5;
+    background-color: #b1c2f3;
+  }
+  .card-1{
+    display: flex;
+    
+   
+    justify-content: center;
+  }
